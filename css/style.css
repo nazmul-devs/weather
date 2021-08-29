@@ -52,7 +52,7 @@ body{
 }
 
 /* weather display style */
-.weather{
+#weather{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,13 +61,13 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
-.weather>h2{
+#weather>h2{
     font-size: 60px;
     margin: 10px;
 }
-.weather>h3{
+#weather>h3{
     font-size: 40px;
 }
-.weather>h4{
+#weather>h4{
     font-size: 30px;
 }
