@@ -48,7 +48,7 @@ body{
     align-items: center;
 }
 .weather-logo>img{
-    width: 120px;
+    width: 150px;
 }
 
 /* weather display style */
@@ -60,6 +60,7 @@ body{
     color: #000000d2;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    color: #10032e;
 }
 #weather>h2{
     font-size: 60px;
