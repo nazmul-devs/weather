@@ -13,8 +13,8 @@ const loadData = async city => {
 
 const updateWeather = weather => {
     const weatherContainer = document.getElementById('weather');
-    const feelsLike = Math.round(weather.main.feels_like / 8.587);
-    const temp = weather.main.temp / 8.587;
+    const feelsLike = Math.round(weather.main.feels_like -273);
+    const temp = weather.main.temp -273;
     const country = (country) => {
         if (country == 'BD') {
         return 'Bangladesh';
