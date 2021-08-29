@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: url(../raimond-klavins-xCtFgQxlhu0-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+/* search area style */
+.search-area{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-area>input{
+    width: 350px;
+    background: white;
+    border: none;
+    border-radius: 2px;
+    padding: 7px 10px;
+    font-size: 18px;
+}
+.search-area>button{
+    background: #0a044970;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 2px;
+    margin-left: 20px;
+    transition: .4s;
+}
+.search-area>button:hover{
+    background: none;
+    border: 1px solid #ffffff;
+}
+/* weather logo */
+.weather-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather-logo>img{
+    width: 120px;
+}
+
+/* weather display style */
+.weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000000d2;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.weather>h2{
+    font-size: 60px;
+    margin: 10px;
+}
+.weather>h3{
+    font-size: 40px;
+}
+.weather>h4{
+    font-size: 30px;
+}
